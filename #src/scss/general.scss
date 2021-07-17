@@ -5,7 +5,7 @@
     margin: 0;
     border: 0;
 
-    font-family: Arial;
+    font-family: "Roboto", sans-serif;
 }
 
 *,
@@ -19,10 +19,6 @@
 :focus,
 :active {
     outline: none;
-}
-
-a:visited {
-    color: inherit;
 }
 
 a:focus,
@@ -76,6 +72,8 @@ button::-moz-focus-inner {
 a,
 a:visited {
     text-decoration: none;
+
+    color: inherit;
 }
 
 a:hover {
